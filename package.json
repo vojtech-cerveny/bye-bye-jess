@@ -1,0 +1,18 @@
+{
+  "name": "bye-bye-cypress",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "cypress": "^11.2.0"
+  },
+  "dependencies": {
+    "crypto": "^1.0.1",
+    "serve": "^14.1.2"
+  },
+  "scripts": {
+    "start": "serve -s src -p 4433",
+    "cy:open": "cypress open",
+    "cy:run": "cypress run"
+  }
+}
